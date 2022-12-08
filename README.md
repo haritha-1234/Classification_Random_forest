@@ -1,4 +1,4 @@
-# Random_forest
+# Signal Background Discriminator
 ## __Overview__
 The aim of this project is to develop a signal-background discriminator using Random Forest. Here Gamma is the signal and proton is the background. We are using air shower data initiated by Gamma and protons. The data has been simulated using 2 softwares CORSIKA and Sim_telarry which generates air showers and telescopes respectively. From the telescope images, I have seen that most of the proton images have muon rings of different radius. So the idea was to develop a CNN which seperates protons(background) from Gamma(signal).
 ## __Data Structure__
